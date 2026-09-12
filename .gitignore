@@ -1,0 +1,25 @@
+# Секреты — никогда не коммитить
+.env
+.env.*
+!.env.example
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Кэш разобранных документов и загруженные пользователем PDF
+.cache/
+uploads/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ОС / IDE
+.DS_Store
+.idea/
+.vscode/

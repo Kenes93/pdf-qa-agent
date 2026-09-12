@@ -1,0 +1,14 @@
+# Извлечение
+pypdf>=6.0
+docling>=2.100
+ocrmac>=1.0          # OCR через нативный Vision framework macOS
+
+# Агент
+langchain>=1.0
+langchain-openai>=1.0
+langchain-text-splitters>=1.0
+openai>=2.0
+python-dotenv>=1.0
+
+# Интерфейс
+streamlit>=1.50
